@@ -1,0 +1,32 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.RegisterDiv{
+    height: auto;
+    width: 500px;
+    margin: 8% auto ;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 15px;
+}
+.regester-btn{
+    margin: 30px 0; 
+    width: 100%;
+
+}
+
+.register-h1{
+    text-align: center;
+    
+}
+
+.reg-label{
+    margin: 10px;
+}
+.inp-2{
+    margin-bottom: 20px;
+}
+.a-1{
+    margin-left: 25px;
+}

@@ -1,0 +1,15 @@
+.banner{
+    position: relative;
+    z-index: 1;
+    background-image: url('../image/banner.jpg');
+    background-size: cover;
+    min-height: 500px;
+    text-align: center;
+    overflow: hidden;
+}
+.banner-content{
+    margin: 0 auto;
+    padding: 200px 0 56px 0;
+    width: 1170px;
+    
+}

@@ -1,0 +1,64 @@
+.card-product{
+    color: black;
+    transition: 0.5s;
+    transform-origin: top;
+    overflow: hidden;
+    text-decoration: none;
+}
+.rounded{
+    transition: 0.5s; 
+}
+a:hover{
+    color: black;
+    text-decoration: none;
+    
+    
+}
+
+.card-product .rounded:hover{
+    transform: scale(1.1);
+    height: 200px;
+
+}
+aside{
+    float: left;
+    background-color: #f9f9f9;
+    margin-left: 10px;
+    padding: 40px 30px;
+    width: 250px;
+    margin: 6% 0px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+aside:hover{
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+.cart-div img{
+    cursor: pointer;
+    height: 35px;
+    width: 35px;
+}
+.cart-div{
+    float: right;
+    margin-top: 8px;
+    margin-right: 10px;
+}
+.search-name{
+    float: right;
+}
+
+.card-product {
+    border: 1px solid #ddd;
+    background: linear-gradient(135deg, #ffffff, #f8f9fa);
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card-product:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.300);
+    border: 1px solid rgba(108, 117, 125, 0.3); /* Subtle border glow */
+}

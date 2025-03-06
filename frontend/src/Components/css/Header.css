@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header-container {
+    background:linear-gradient(to right, #1794aa, #0a2f38) !important;
+    color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    padding: 10px;
+}
+
+.logo {
+    display: inline-block;
+    margin: 7px 50px;
+}
+
+.logo h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.hul {
+    display: flex;
+    float: inline-end;
+    margin: 6px 30px;
+    color: rgba(0, 0, 0, 0.616);
+    margin-top: 8px;
+}
+
+.hli {
+    list-style: none;
+    margin-left: 30px;
+    margin-top: 10px;
+    color: #fff
+}
+
+.header-a {
+    text-decoration: none;
+    color:#fff;
+    font-size: medium;
+}
+
+.header-a:hover, .header-a:focus {
+    color: rgb(180, 175, 175);
+    text-decoration: none;
+}
+
+.drop-div {
+    margin-top: 0px;
+    float: inline-end;
+}
+
+.gradient-logo {
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background: linear-gradient(45deg, #36b6a1, #00e5ff); /* Green to Cyan gradient */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Poppins", sans-serif;
+}
+.cart-icon {
+    width: 30px;  /* Set the width you want */
+    height: 30px; /* Set the height you want */
+    object-fit: contain; /* Ensure the aspect ratio is maintained */
+}
+.profile{
+    margin-top: 3px !important;
+}
+
+.hli-1{
+    margin-top: 8px;
+}
